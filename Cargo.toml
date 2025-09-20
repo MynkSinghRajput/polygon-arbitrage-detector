@@ -1,0 +1,10 @@
+[package]
+name = "polygon_arbitrage_detector"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenv = "0.15.0"
+ethers = { version = "2.0.14", features = ["ws", "abigen"] }
+serde = { version = "1.0.225", features = ["derive"] }
+tokio = { version = "1.47.1", features = ["full"] }
