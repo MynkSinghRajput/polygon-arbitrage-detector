@@ -1,0 +1,9 @@
+# Ignore compiled artifacts
+/target/
+
+# Ignore local configuration
+.env
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
